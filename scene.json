@@ -1,0 +1,48 @@
+{
+  "display": {
+    "title": "micromall",
+    "favicon": "favicon_asset"
+  },
+  "contact": {
+    "name": "dogman",
+    "email": ""
+  },
+  "owner": "dogman",
+  "scene": {
+    "parcels": [
+      "-26,-46",
+      "-27,-46"
+    ],
+
+    "base": "-26,-46"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": []
+  },
+  "requiredPermissions": [],
+  "main": "bin/game.js",
+  "tags": [],
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ]
+}
